@@ -56,7 +56,8 @@
 - [x] Preview page for unauthenticated users
 - [x] Routing with authentication on the pages
 - [x] CMS integration
-- [x] Faunadb integration 
+- [x] Faunadb integration
+- [x] Automated testing covering the entire application
 
 <a id="techs"></a>
 ## 🧪 Technologies
@@ -71,6 +72,7 @@
 - [Stripe](https://stripe.com/)
 - [Axios](https://axios-http.com/)
 - [Sass](https://sass-lang.com/)
+- [Jest](https://jestjs.io/)
 
 <a id="requests"></a>
 ## 🚨 Project Prerequisites
@@ -101,6 +103,9 @@ $ code .
 yarn install
 
 # Create the necessary tables and integrations with Prismic and Stripe
+
+# Run the tests
+$ yarn test
 
 # Run the application
 $ yarn dev or build
