@@ -11,24 +11,24 @@ export function SubscribeButton() {
   const router = useRouter()
 
   async function handleSubscribe() {
-    // if(!session) {
-    //   signIn('github')
-    //   return
-    // }
+    if(!session) {
+      signIn('github')
+      return
+    }
 
-    // if(session.activeSubscription) {
-    //   router.push('/posts')
-    //   return
-    // }
+    if(session.activeSubscription) {
+      router.push('/posts')
+      return
+    }
 
     try {
-      const response = await api.post('/subs')
+      const response = await api.post('/subscribe')
 
-      // const { sessionId } = response.data
+      const { sessionId } = response.data
 
-      // const stripe = await getStripeJs()
+      const stripe = await getStripeJs()
 
-      // await stripe.redirectToCheckout({ sessionId })
+      await stripe.redirectToCheckout({ sessionId })
     } catch (err) {
       alert(err.message)
     }
