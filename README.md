@@ -9,7 +9,7 @@
 [![GitHub size](https://img.shields.io/github/last-commit/pauloreis7/ignews?color=%23964b00)](https://github.com/pauloreis7/ignews/commits)
 [![GitHub stars](https://img.shields.io/github/stars/pauloreis7/ignews?color=%23f9d71c&style=flat)](https://github.com/pauloreis7/ignews/stargazers)
 [![GitHub license](https://img.shields.io/github/license/pauloreis7/Foodfy)](https://github.com/pauloreis7/ignews/blob/master/LICENSE)
-	
+
 </h2>
 
 <h1 align="center">
@@ -18,10 +18,12 @@
 
 <h4 align="center">🏁 Application already finished 🏁</h4>
 
-<p align="center">💻 Application for a react news blog with subscription ⚛️</p>
+<p align="center">💻 Application for a react news blog with subscriptions ⚛️</p>
 
 ## 🔗 Index
+
 ---
+
  <p>👉 <a href="#about">About the project</a> </p>
  <p>👉 <a href="#layout">Application Layout</a> </p>
  <p>👉 <a href="#func">Features</a> </p>
@@ -33,21 +35,30 @@
  <p>👉 <a href="#license">License</a> </p>
 
 <a id="about"></a>
+
 ## 🔎 About the project
+
 ---
+
 <p>Full application for react universe news blog with paid subscription.</p>
 
 <a id="layout"></a>
+
 ## 🎨 Application Layout
+
 ---
+
 <img src=".github/home.svg" />
 <img src=".github/posts.svg" />
 <img src=".github/postDesc.svg" />
 <img src=".github/postDesc(notLogged).svg" />
 
 <a id="func"></a>
+
 ## ✅ Features
+
 ---
+
 - [x] User Session System
 - [x] Authentication with GitHub
 - [x] Integration with payment method for subscription
@@ -60,8 +71,11 @@
 - [x] Automated testing covering the entire application
 
 <a id="techs"></a>
+
 ## 🧪 Technologies
+
 ---
+
 ### 💻 Project developed with the following technologies
 
 - [TypeScript](https://www.typescriptlang.org/)
@@ -75,20 +89,25 @@
 - [Jest](https://jestjs.io/)
 
 <a id="requests"></a>
-## 🚨 Project Prerequisites
----
- Before you start, you will need to have the following tools installed on your machine:
 
-* [Git](https://git-scm.com)
-* [Yarn](https://yarnpkg.com/)
+## 🚨 Project Prerequisites
+
+---
+
+Before you start, you will need to have the following tools installed on your machine:
+
+- [Git](https://git-scm.com)
+- [Yarn](https://yarnpkg.com/)
 
 💡 Also, it is good to have an editor to work with the code like [VSCode](https://code.visualstudio.com/)
 
 <a id="work"></a>
+
 ## 🏄‍♂️ Download and execution
+
 ---
 
-````bash
+```bash
 
 # Clone the repository
 $ git clone <https://github.com/pauloreis7/ignews>
@@ -110,12 +129,13 @@ $ yarn test
 # Run the application
 $ yarn dev or build
 
-# The app will start on port:3000 
+# The app will start on port:3000
 access  <http://localhost:3000>
 
-````
+```
 
 <a id="contribute"></a>
+
 ## 🎉 How Contribute
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/pauloreis7/ignews/pulls)
@@ -127,9 +147,10 @@ access  <http://localhost:3000>
 <b>3. Save your changes and create a commit message telling what you have done: git commit -m "feature: My new feature</b> <br />
 <b>4. Submit your changes: git push origin my-feature</b>
 
-
 <a id="author"></a>
+
 ## Author
+
 ---
 
 ## 👨‍💻 Author
@@ -138,7 +159,7 @@ access  <http://localhost:3000>
 
 <img style="border-radius: 50%;" src="https://avatars1.githubusercontent.com/u/63323224?s=400&v=4" width="100px;" alt=""/>
 
-<b>Paulo Reis</b> 🏆 
+<b>Paulo Reis</b> 🏆
 
 </a>
 
@@ -149,6 +170,9 @@ access  <http://localhost:3000>
 <a href="https://www.instagram.com/pauloreis.7" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
 
 <a id="license"></a>
+
 ## 📝 License
+
 ---
+
 This project is under the MIT license. See the [LICENSE](LICENSE) file for more details.🏛️
